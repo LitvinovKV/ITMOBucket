@@ -7,7 +7,14 @@
 </head>
 
 <body>
-    <div id="Basket">Корзина</div><br>
+    <div class="withoutProducts">
+        <label>Введите доступную сумму</label>
+        <input type="text" id="CountCash">
+        <input type="button" value="Установить цену" onclick="setCash()">
+    </div>
+    
+    <div id="Basket" class="withoutProducts">Корзина</div><br>
+    
     <div class="Product" style="left: 10px; top: 130px">Товар №1
         <div hidden="true">199</div>
     </div>
